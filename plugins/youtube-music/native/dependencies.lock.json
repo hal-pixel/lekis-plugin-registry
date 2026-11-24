@@ -1,0 +1,78 @@
+{
+  "nanojson.jar": {
+    "url": "https://jitpack.io/com/github/TeamNewPipe/nanojson/e9d656ddb49a412a5a0a5d5ef20ca7ef09549996/nanojson-e9d656ddb49a412a5a0a5d5ef20ca7ef09549996.jar",
+    "sha256": "d495881a322b3c72e5d43284afd7d7021520028ca8b7c6ba861e3fd8d90614d5"
+  },
+  "jsoup.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.2/jsoup-1.22.2.jar",
+    "sha256": "596785996d3c6df16f544c232d10a9a1d88783b2a4740cf5251cb616f2be704d"
+  },
+  "jsr305.jar": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+    "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+  },
+  "protobuf-javalite.jar": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-javalite/4.35.1/protobuf-javalite-4.35.1.jar",
+    "sha256": "45d3769189888e491ab7d58125f2014c2a86fb8104c7aa3878c723943fce7a14"
+  },
+  "rhino.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.8.1/rhino-1.8.1.jar",
+    "sha256": "98a06d42bdd69da15bf9c2a7812b4cfe648ca9e64fe8baaeb502a32b0ed2c8ac"
+  },
+  "rhino-engine.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/mozilla/rhino-engine/1.8.1/rhino-engine-1.8.1.jar",
+    "sha256": "ff38ad60aa32a23942f60242a433a2583a5407841745510754a43e0e61dd95cf"
+  },
+  "protoc-osx-aarch_64.exe": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protoc/4.35.1/protoc-4.35.1-osx-aarch_64.exe",
+    "sha256": "d81c6d9240f7eb8d18d41c6abc9cd6ca7896e370c7b575adfcf2fa1d600727de"
+  },
+  "newpipe-source.tar.gz": {
+    "url": "https://codeload.github.com/TeamNewPipe/NewPipeExtractor/tar.gz/f9e6bb808f82bf3e4dc1f2a29a16fd376931c8ef",
+    "sha256": "648d2717a2f967c2e4f7303436404ff08a9b455a4bf7bc5923bdbba4a49b180c"
+  },
+  "nanojson-sources.jar": {
+    "url": "https://jitpack.io/com/github/TeamNewPipe/nanojson/e9d656ddb49a412a5a0a5d5ef20ca7ef09549996/nanojson-e9d656ddb49a412a5a0a5d5ef20ca7ef09549996-sources.jar",
+    "sha256": "a4ac5f0d7163220039527b45cc846df44e66a3293ac10af85a2d35b204a8e82d"
+  },
+  "jsoup-sources.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.22.2/jsoup-1.22.2-sources.jar",
+    "sha256": "3aed3e38ec1e0373eb6755213b01d197802f858850bce20e63d99c93e08818bc"
+  },
+  "jsr305-sources.jar": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar",
+    "sha256": "1c9e85e272d0708c6a591dc74828c71603053b48cc75ae83cce56912a2aa063b"
+  },
+  "protobuf-javalite-sources.jar": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-javalite/4.35.1/protobuf-javalite-4.35.1-sources.jar",
+    "sha256": "de71721d787177c241461f8c4b36ae16394bffeb1e7dcbc0a85e76a5d943b124"
+  },
+  "rhino-sources.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/mozilla/rhino/1.8.1/rhino-1.8.1-sources.jar",
+    "sha256": "2303a0e5aa222faae0b95865c25442da89ec14c0fc81ac1608f2a6095e3d2459"
+  },
+  "rhino-engine-sources.jar": {
+    "url": "https://repo.maven.apache.org/maven2/org/mozilla/rhino-engine/1.8.1/rhino-engine-1.8.1-sources.jar",
+    "sha256": "c3316bdfd713c92d2688ea921b5cc7568a5a879ecd395847559407862fce5089"
+  },
+  "r8.jar": {
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/r8/8.12.28/r8-8.12.28.jar",
+    "sha256": "71568c30ba242b033d3ec86a2e0c9dd86fc1da5c421142e716ef037ed6563d38"
+  },
+  "desugar_jdk_libs.jar": {
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs/2.1.5/desugar_jdk_libs-2.1.5.jar",
+    "sha256": "d8044befae095781b9a80bf1faa92edc30382d75d437476784c1bf991598a976"
+  },
+  "desugar_jdk_libs_configuration.jar": {
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/desugar_jdk_libs_configuration/2.1.5/desugar_jdk_libs_configuration-2.1.5.jar",
+    "sha256": "7bc9051b3a1ec19806311dcb6aa9b9ba7ef9c22caa6f4810da55bde285fb7770"
+  },
+  "desugar-source.tar.gz": {
+    "url": "https://codeload.github.com/google/desugar_jdk_libs/tar.gz/73170c345e6a762fc6a1f0301bb15218850023ef",
+    "sha256": "4cd2faa88ecb2450522fd4f0dcd11d6df878d7197b2276fb35532c50267f7a64"
+  },
+  "protoc-linux-x86_64.exe": {
+    "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protoc/4.35.1/protoc-4.35.1-linux-x86_64.exe",
+    "sha256": "d2c65c3ea5eeb59427f684ed3e0a0cd458386122fc9f1b98de946a7242b53d31"
+  }
+}

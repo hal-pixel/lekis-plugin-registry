@@ -1,0 +1,57 @@
+{
+  "id": "dev.lekis.youtube-music",
+  "name": "YouTube Music",
+  "version": "1.4.0",
+  "apiVersion": "1.2",
+  "minAppVersion": "0.5.0",
+  "runtime": "js",
+  "entry": "index.js",
+  "kinds": [
+    "source",
+    "lyrics"
+  ],
+  "permissions": {
+    "network": [
+      "music.youtube.com",
+      "www.youtube.com",
+      "*.googlevideo.com",
+      "*.ytimg.com",
+      "youtubei.googleapis.com"
+    ],
+    "requestHeaders": {
+      "*.googlevideo.com": {}
+    },
+    "storageKb": 1024
+  },
+  "settings": [
+    {
+      "key": "searchLimit",
+      "type": "select",
+      "label": "每次搜索数量 / Search results",
+      "options": [
+        "10",
+        "25",
+        "50"
+      ],
+      "default": "25"
+    },
+    {
+      "key": "quality",
+      "type": "select",
+      "label": "音质 / Audio quality",
+      "options": [
+        "high",
+        "normal",
+        "low"
+      ],
+      "default": "high",
+      "help": "优先 AAC/M4A，使用 Lekis 原生解码。YouTube Music 不提供无损音频。"
+    }
+  ],
+  "native": {
+    "android": {
+      "entry": "android/youtube-native.jar",
+      "className": "dev.lekis.youtube.YoutubeNativePlugin"
+    }
+  }
+}

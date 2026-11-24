@@ -9,6 +9,14 @@
       "version": "0.5.0-lekis.1",
       "package": "packages/bilibili.zip",
       "sha256": "ac94435f96d1b81975e45112c80aab18eeb7626ec6095e3b74e07484dd4ac39e"
+    },
+    {
+      "id": "dev.lekis.youtube-music",
+      "name": "YouTube Music",
+      "description": "搜索 YouTube Music、打开歌曲与专辑链接并播放音频。Android 需授权本地代码；不支持 iOS。",
+      "version": "1.4.0",
+      "package": "packages/youtube-music.zip",
+      "sha256": "1342587d93694bf2d0a7d8533bfe6802591827c6ede87cbb0afce76b1984bcb8"
     }
   ]
 }
