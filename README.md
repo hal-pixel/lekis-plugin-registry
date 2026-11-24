@@ -2,9 +2,25 @@
 
 这是由社区维护的独立静态目录。目录收录及维护者说明均不代表 Lekis Music 或哔哩哔哩官方立场。
 
-## 安装 Bilibili
+## 添加到月兔音乐
 
-支持社区插件库的 Lekis Music 构建可以从欢迎页打开「导入在线音源」，或从「设置 → 高级 → 插件」进入插件页。浏览社区插件库，选择 **Bilibili**，确认安装。客户端会自动校验下载包。
+[在月兔音乐中添加这个仓库](https://hal-pixel.github.io/lekis-plugin-registry/)
+
+在支持仓库订阅的月兔音乐里，打开欢迎页的「导入在线音源」，也可以从「设置 → 高级 → 插件」进入。选择添加仓库，粘贴下面的完整地址。
+
+```text
+https://raw.githubusercontent.com/hal-pixel/lekis-plugin-registry/main/catalog.json
+```
+
+确认后，这个仓库会保存在设备上。打开仓库，点 **Bilibili** 安装。以后再找这个仓库里的插件，直接从列表进入即可。移除仓库会停止从该地址浏览，已装的插件仍可使用。
+
+网页作者可以将下列地址用作「在月兔音乐中添加」的按钮链接。支持此协议的 Android、macOS 构建会打开仓库确认页。
+
+```text
+lekis://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhal-pixel%2Flekis-plugin-registry%2Fmain%2Fcatalog.json
+```
+
+## 从 ZIP 安装 Bilibili
 
 支持 MyGo 音源插件及本地安装的构建也可使用 ZIP。
 
@@ -16,7 +32,7 @@
 
 ## 目录约定
 
-`catalog.json` 使用 UTF-8。顶层 `version` 是目录格式版本，当前为整数 `1`。`plugins` 数组中每个条目代表一个可安装包。
+`catalog.json` 使用 UTF-8。顶层 `version` 是目录格式版本，当前为整数 `1`。`name` 是供用户识别仓库的可选显示名。`plugins` 数组中每个条目代表一个可安装包。
 
 | 字段 | 约定 |
 | --- | --- |

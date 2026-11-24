@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>添加 Lekis 社区插件库</title>
+<style>
+  :root { color-scheme: light dark; font: 100%/1.6 "Instrument Sans", system-ui, sans-serif; }
+  body { margin: 0; }
+  main { max-width: 35rem; margin: clamp(3rem, 12vh, 8rem) auto; padding: 0 1.3rem; }
+  h1 { line-height: 1.2; letter-spacing: -.04em; }
+  .action { display: inline-block; padding: .65rem 1rem; color: white; background: #5340a5; border-radius: .4rem; text-decoration: none; }
+  label { display: block; margin: 2rem 0 .4rem; }
+  input, button { font: inherit; }
+  input { box-sizing: border-box; width: 100%; padding: .5rem; }
+  button { margin-top: .4rem; cursor: pointer; }
+  footer { margin-top: 2.5rem; }
+</style>
+<main>
+  <h1>Lekis 社区插件库</h1>
+  <p>添加这个仓库后，你可以在月兔音乐里选装 Bilibili 等社区音源。插件由第三方独立维护。</p>
+  <a class="action" href="lekis://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhal-pixel%2Flekis-plugin-registry%2Fmain%2Fcatalog.json">在月兔音乐中添加</a>
+  <p>此按钮适用于支持仓库链接的 Android 和 macOS 版本。也可以打开 App 的插件页，选择添加仓库，粘贴下方地址。</p>
+  <label for="address">仓库地址</label>
+  <input id="address" readonly value="https://raw.githubusercontent.com/hal-pixel/lekis-plugin-registry/main/catalog.json">
+  <button id="copy" type="button" hidden>复制仓库地址</button>
+  <span role="status" id="result"></span>
+  <footer><a href="https://github.com/hal-pixel/lekis-plugin-registry">查看插件源码和许可</a></footer>
+</main>
+<script>
+  const copy = document.querySelector('#copy');
+  const address = document.querySelector('#address');
+  const result = document.querySelector('#result');
+  copy.hidden = false;
+  copy.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(address.value);
+      result.textContent = '已复制';
+    } catch {
+      address.focus();
+      address.select();
+      result.textContent = '已选中地址，请复制。';
+    }
+  });
+</script>
+</html>

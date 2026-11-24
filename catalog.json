@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "name": "Lekis 社区插件库",
   "plugins": [
     {
       "id": "dev.mygo.bilibili",

@@ -47,7 +47,7 @@ def render():
         "package": PACKAGE,
         "sha256": hashlib.sha256(package).hexdigest(),
     }
-    catalog = {"version": 1, "plugins": [plugin]}
+    catalog = {"version": 1, "name": "Lekis 社区插件库", "plugins": [plugin]}
     return package, catalog
 
 
