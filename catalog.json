@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "dev.mygo.bilibili",
+      "name": "Bilibili",
+      "description": "搜索 Bilibili 公开视频、浏览音乐榜单并播放音频。",
+      "version": "0.5.0-lekis.1",
+      "package": "packages/bilibili.zip",
+      "sha256": "ac94435f96d1b81975e45112c80aab18eeb7626ec6095e3b74e07484dd4ac39e"
+    }
+  ]
+}
