@@ -32,13 +32,14 @@ lekis://add-repo?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhal-pixel%2Flekis
 
 ## YouTube Music
 
-YouTube Music 1.4.0 已收录，可在同一目录里安装，也可下载 [YouTube Music ZIP](packages/youtube-music.zip)。需要 Lekis 0.5.0 或具备插件 API 1.2 的兼容构建。
+YouTube Music 1.4.1 已收录，可在同一目录里安装，也可下载 [YouTube Music ZIP](packages/youtube-music.zip)。需要 Lekis 0.5.4 或同时具备插件 API 1.2 和官方视频页能力的兼容构建。
 
 - 桌面：启用插件后选择 YouTube Music 搜索，插件通过宿主 HTTPS 请求原站，无需外部程序。
 - Android 8.0+：安装后在插件设置授予 Android 本地代码权限；该授权默认关闭，可撤销。
+- 视频：曲目「更多 → 观看视频」接入客户端现有通用入口，打开精确歌曲 ID 对应的 YouTube 页面。
 - iOS 暂不支持。可用性取决于原站、网络和地区；不提供登录或绕过访问限制。
 
-完整说明见 [插件 README](plugins/youtube-music/README.md)，源码与构建方法见 [native/README.md](plugins/youtube-music/native/README.md)。ZIP 包含 Android 对应源码、依赖源码、许可证和固定版本构建脚本；不包含本地运行记录。公开发布前的 12 项 JavaScript 离线测试通过，这不代表所有地区的实时服务可用。
+完整说明见 [插件 README](plugins/youtube-music/README.md)，源码与构建方法见 [native/README.md](plugins/youtube-music/native/README.md)。ZIP 包含 Android 对应源码、依赖源码、许可证和固定版本构建脚本；不包含本地运行记录。公开发布前的 15 项 JavaScript 离线测试通过，这不代表所有地区的实时服务可用。
 
 ## 目录约定
 

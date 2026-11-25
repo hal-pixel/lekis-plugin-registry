@@ -1,6 +1,15 @@
 // Single-file ES module for Lekis QuickJS. No Node/browser dependencies.
 const VIDEO_ID = /^[A-Za-z0-9_-]{11}$/;
 
+// Lekis 0.5.4's source video contract. Keep the exact stored track identity;
+// this opens the official page without resolving media or requesting native code.
+export async function video({ id } = {}) {
+  if (typeof id !== 'string' || id.length !== 11 || !VIDEO_ID.test(id)) {
+    throw new PluginError('unavailable', '这首曲目没有有效的 YouTube 视频 ID。');
+  }
+  return { url: 'https://www.youtube.com/watch?v=' + id, title: 'YouTube' };
+}
+
 function desktop() {
   if (host.app.platform === 'ios') throw new PluginError('unsupported', '当前 iOS 版暂不支持此 YouTube Music 插件。');
   if (host.app.platform === 'android') throw new PluginError('unsupported', 'Android 需要使用插件的本地解析入口。');

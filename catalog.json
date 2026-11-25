@@ -14,9 +14,9 @@
       "id": "dev.lekis.youtube-music",
       "name": "YouTube Music",
       "description": "搜索 YouTube Music、打开歌曲与专辑链接并播放音频。Android 需授权本地代码；不支持 iOS。",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "package": "packages/youtube-music.zip",
-      "sha256": "1342587d93694bf2d0a7d8533bfe6802591827c6ede87cbb0afce76b1984bcb8"
+      "sha256": "0406389a68172136ebbe61708521d724e8b3c00196cfb803a93f412e5d840ece"
     }
   ]
 }

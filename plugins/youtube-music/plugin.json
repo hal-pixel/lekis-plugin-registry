@@ -1,14 +1,15 @@
 {
   "id": "dev.lekis.youtube-music",
   "name": "YouTube Music",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "apiVersion": "1.2",
-  "minAppVersion": "0.5.0",
+  "minAppVersion": "0.5.4",
   "runtime": "js",
   "entry": "index.js",
   "kinds": [
     "source",
-    "lyrics"
+    "lyrics",
+    "video"
   ],
   "permissions": {
     "network": [
